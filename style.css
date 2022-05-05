@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;400;700&family=Montserrat&display=swap');
+
 html{
     box-sizing: border-box;
     margin: 0px;
@@ -16,6 +18,7 @@ body{
 .container{
     height: 400px;
     width: 200px;
+    
 }
 
 .display{
@@ -25,6 +28,7 @@ body{
 
 h2{
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button--container{
@@ -43,6 +47,7 @@ h2{
     justify-content: center;
     align-items: center;
     user-select: none;
+    font-family: 'Montserrat', sans-serif;
 }
 .zero{
     grid-column: 2 span;
